@@ -25,6 +25,7 @@ import android.widget.Toast
 import androidx.core.content.FileProvider
 import kotlinx.android.synthetic.main.fragment_gallery.*
 import kotlinx.android.synthetic.main.fragment_share.*
+import kotlinx.android.synthetic.main.nav_header_main.*
 import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat
@@ -128,5 +129,20 @@ class MainActivity : AppCompatActivity() {
     fun captureClick(view: View) {
         d("mihir", "hi")
         dispatchTakePictureIntent()
+    }
+
+    fun resetClick(view: View) {
+        et_user_name.setText("")
+        et_email.setText("")
+        et_password.setText("")
+    }
+
+    fun submitClick(view: View) {
+        val user_name = et_user_name.text;
+        val email = et_email.text;
+        val password = et_password.text;
+        Toast.makeText(this@MainActivity, "Successful Login!", Toast.LENGTH_LONG).show()
+        personName.setText(user_name)
+        personEmail.setText(email)
     }
 }
