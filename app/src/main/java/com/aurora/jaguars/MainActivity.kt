@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
+import android.util.Log.d
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.navigation.findNavController
@@ -17,6 +18,7 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -99,7 +101,8 @@ class MainActivity : AppCompatActivity() {
         captureImageBtn.setOnClickListener {
             dispatchTakePictureIntent()
         }
-        */
+
+         */
 
 
 
@@ -115,5 +118,15 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+    fun onClick(view: View) {
+        //Home page button
+        d("mihir","hi")
+    }
+
+    fun captureClick(view: View) {
+        d("mihir", "hi")
+        dispatchTakePictureIntent()
     }
 }
