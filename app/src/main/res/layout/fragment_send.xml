@@ -31,41 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="252dp"
-        android:layout_height="23dp"
-        android:text="Allow Camera"
-        android:textSize="18sp"
-        android:translationX="44"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="148dp" />
 
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="252dp"
-        android:layout_height="23dp"
-        android:text="Allow Voice"
-        android:textSize="18sp"
-        android:translationX="44"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="230dp" />
-
-    <Switch
-        android:id="@+id/switch3"
-        android:layout_width="252dp"
-        android:layout_height="23dp"
-        android:text="Allow Maps"
-        android:textSize="18sp"
-        android:translationX="44"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.188"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="310dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
