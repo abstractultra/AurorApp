@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             storageDir /* directory */
         ).apply {
             // Save a file: path for use with ACTION_VIEW intents
-            currentPhotoPath = "/sdcard/somethingrandomidu9cr.png"
+            currentPhotoPath = absolutePath
         }
     }
 
