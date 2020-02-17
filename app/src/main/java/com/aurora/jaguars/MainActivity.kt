@@ -16,6 +16,7 @@ import android.view.Menu
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import kotlinx.android.synthetic.main.fragment_share.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -43,28 +44,9 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+        //var ralias = R.id.et_user_name as String;
 
-        var et_user_name = findViewById(R.id.et_user_name) as EditText
-        var et_password = findViewById(R.id.et_password) as EditText
-        var btn_reset = findViewById(R.id.btn_reset) as Button
-        var btn_submit = findViewById(R.id.btn_submit) as Button
 
-        /*
-        btn_reset.setOnClickListener {
-            // clearing user_name and password edit text views on reset button click
-            et_user_name.setText("")
-            et_password.setText("")
-        }
-        */
-
-        /*
-        // set on-click listener
-        btn_submit.setOnClickListener {
-            val user_name = et_user_name.text;
-            val password = et_password.text;
-            Toast.makeText(this@MainActivity, user_name, Toast.LENGTH_LONG).show()
-        }
-        */
 
 
 
