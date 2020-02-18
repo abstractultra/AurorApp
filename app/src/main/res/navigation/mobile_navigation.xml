@@ -7,32 +7,32 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.aurora.jaguars.ui.home.HomeFragment"
+        android:name="edu.cmu.pocketsphinx.demo.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_camera"
-        android:name="com.aurora.jaguars.ui.gallery.GalleryFragment"
+        android:name="edu.cmu.pocketsphinx.demo.ui.gallery.GalleryFragment"
         android:label="Camera Report"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_voice"
-        android:name="com.aurora.jaguars.ui.slideshow.SlideshowFragment"
+        android:name="edu.cmu.pocketsphinx.demo.ui.slideshow.SlideshowFragment"
         android:label="Voice Report"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_voice" />
 
 
     <fragment
         android:id="@+id/nav_login"
-        android:name="com.aurora.jaguars.ui.share.ShareFragment"
+        android:name="edu.cmu.pocketsphinx.demo.ui.share.ShareFragment"
         android:label="Log In"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.aurora.jaguars.ui.send.SendFragment"
+        android:name="edu.cmu.pocketsphinx.demo.ui.send.SendFragment"
         android:label="Settings"
         tools:layout="@layout/fragment_send" />
 </navigation>

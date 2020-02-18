@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">jaguars</string>
+    <string name="app_name">QuickAlert</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -13,4 +13,10 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+    <string name="kws_caption">To report a pothole located near where you are, say \"quick alert a pothole\"</string>
+    <string name="menu_caption">Say \"digits\", \"forecast\" or \"phones\" to choose the grammar, language model or phonetic decoder example.</string>
+    <string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>
+    <string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>
+    <string name="phone_caption">To try phonetic recognition say anything.</string>
 </resources>

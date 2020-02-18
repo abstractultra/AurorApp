@@ -1,0 +1,4 @@
+#Mon Feb 17 16:43:13 EST 2020
+base.0=/Users/leonzalion/Desktop/QuickAlert/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

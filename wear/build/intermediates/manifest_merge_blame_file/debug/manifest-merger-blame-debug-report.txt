@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.cmu.pocketsphinx.demo.wear"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml
+10
+11    <meta-data
+11-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:5:5-7:32
+12        android:name="com.google.android.wearable.standalone"
+12-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:6:9-62
+13        android:value="true" />
+13-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:7:9-29
+14
+15    <uses-feature android:name="android.hardware.type.watch" />
+15-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:9:5-64
+15-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:9:19-61
+16
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:11:5-81
+17-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:12:5-71
+18-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:12:22-68
+19
+20    <application
+20-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:14:5-27:19
+21        android:allowBackup="false"
+21-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:15:9-36
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:16:9-43
+24        android:label="@string/app_name"
+24-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:17:9-41
+25        android:supportsRtl="true"
+25-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:18:9-35
+26        android:theme="@android:style/Theme.DeviceDefault" >
+26-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:19:9-59
+27        <activity
+27-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:20:9-26:20
+28            android:name="edu.cmu.pocketsphinx.demo.wear.WearActivity"
+28-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:20:19-47
+29            android:label="@string/app_name" >
+29-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:20:48-80
+30            <intent-filter>
+30-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:22:17-69
+31-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:24:17-77
+33-->/Users/leonzalion/Desktop/QuickAlert/wear/src/main/AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <uses-library
+37-->[com.google.android.support:wearable:2.1.0] /Users/leonzalion/.gradle/caches/transforms-2/files-2.1/3398bad8bd8a8ff5dcf51d70d347826a/wearable-2.1.0/AndroidManifest.xml:10:9-12:40
+38            android:name="com.google.android.wearable"
+38-->[com.google.android.support:wearable:2.1.0] /Users/leonzalion/.gradle/caches/transforms-2/files-2.1/3398bad8bd8a8ff5dcf51d70d347826a/wearable-2.1.0/AndroidManifest.xml:11:13-55
+39            android:required="false" />
+39-->[com.google.android.support:wearable:2.1.0] /Users/leonzalion/.gradle/caches/transforms-2/files-2.1/3398bad8bd8a8ff5dcf51d70d347826a/wearable-2.1.0/AndroidManifest.xml:12:13-37
+40
+41        <meta-data
+41-->[com.android.support:percent:26.0.2] /Users/leonzalion/.gradle/caches/transforms-2/files-2.1/b657944717b662dfa08035074665d295/percent-26.0.2/AndroidManifest.xml:23:9-25:38
+42            android:name="android.support.VERSION"
+42-->[com.android.support:percent:26.0.2] /Users/leonzalion/.gradle/caches/transforms-2/files-2.1/b657944717b662dfa08035074665d295/percent-26.0.2/AndroidManifest.xml:24:13-51
+43            android:value="26.0.2" />
+43-->[com.android.support:percent:26.0.2] /Users/leonzalion/.gradle/caches/transforms-2/files-2.1/b657944717b662dfa08035074665d295/percent-26.0.2/AndroidManifest.xml:25:13-35
+44    </application>
+45
+46</manifest>

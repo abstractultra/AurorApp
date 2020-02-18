@@ -22,7 +22,7 @@
         android:id="@+id/z"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="26dp"
         android:text="Log In"
         android:textColor="#009688"
         android:textSize="30sp"
@@ -41,9 +41,9 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#52afaa"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/et_email"
         app:layout_constraintTop_toBottomOf="@+id/z"
-        app:layout_constraintVertical_bias="0.218"
+        app:layout_constraintVertical_bias="0.475"
         tools:layout_editor_absoluteX="0dp" />
 
     <EditText
@@ -54,16 +54,16 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:textColorHint="#52afaa"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/et_password"
         app:layout_constraintTop_toBottomOf="@+id/text_logIn"
-        app:layout_constraintVertical_bias="0.376"
-        tools:layout_editor_absoluteX="8dp" />
+        app:layout_constraintVertical_bias="0.692"
+        tools:layout_editor_absoluteX="0dp" />
 
     <EditText
         android:id="@+id/et_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="300dp"
+        android:layout_marginBottom="248dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:textAlignment="center"
@@ -74,28 +74,36 @@
 
     <Button
         android:id="@+id/btn_reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="196dp"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="108dp"
+        android:background="#E91E63"
         android:onClick="resetClick"
         android:text="Reset"
         android:textAllCaps="false"
+
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="196dp"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="108dp"
+        android:background="#E91E63"
         android:onClick="submitClick"
         android:text="Submit"
         android:textAllCaps="false"
+
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintHorizontal_bias="0.754"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

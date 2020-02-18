@@ -7,8 +7,8 @@
 
     <EditText
         android:id="@+id/et_issue_type"
-        android:layout_width="215dp"
-        android:layout_height="54dp"
+        android:layout_width="353dp"
+        android:layout_height="52dp"
         android:hint="Type of Problem"
         android:inputType="textPersonName|text"
         android:textAlignment="center"
@@ -22,8 +22,8 @@
 
     <EditText
         android:id="@+id/et_authority"
-        android:layout_width="215dp"
-        android:layout_height="54dp"
+        android:layout_width="363dp"
+        android:layout_height="57dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:hint="Authority To Contact"
@@ -33,9 +33,10 @@
         android:textColorHint="#52afaa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/z"
-        app:layout_constraintVertical_bias="0.432" />
+        app:layout_constraintVertical_bias="0.439" />
 
     <TextView
         android:id="@+id/text_gallery"
@@ -54,12 +55,13 @@
         android:id="@+id/z"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:text="Camera"
         android:textColor="#009688"
         android:textSize="30sp"
         app:fontFamily="sans-serif-black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,9 +76,8 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_gallery"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintVertical_bias="0.734" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:aars:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/aars/build/.transforms/a0393b4bc17bc22e8640602be4c5c6a8/pocketsphinx-android-5prealpha-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/aars/build/.transforms/a0393b4bc17bc22e8640602be4c5c6a8/pocketsphinx-android-5prealpha-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
