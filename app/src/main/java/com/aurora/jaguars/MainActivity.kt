@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
+import android.util.Log.d
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.navigation.findNavController
@@ -17,12 +18,14 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.core.content.FileProvider
 import kotlinx.android.synthetic.main.fragment_gallery.*
 import kotlinx.android.synthetic.main.fragment_share.*
+import kotlinx.android.synthetic.main.nav_header_main.*
 import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat
@@ -99,6 +102,8 @@ class MainActivity : AppCompatActivity() {
             dispatchTakePictureIntent()
         }
 
+         */
+
 
 
 
@@ -113,5 +118,30 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+    fun onClick(view: View) {
+        //Home page button
+        d("mihir","hi")
+    }
+
+    fun captureClick(view: View) {
+        d("mihir", "hi")
+        dispatchTakePictureIntent()
+    }
+
+    fun resetClick(view: View) {
+        et_user_name.setText("")
+        et_email.setText("")
+        et_password.setText("")
+    }
+
+    fun submitClick(view: View) {
+        val user_name = et_user_name.text;
+        val email = et_email.text;
+        val password = et_password.text;
+        Toast.makeText(this@MainActivity, "Successful Login!", Toast.LENGTH_LONG).show()
+        personName.setText(user_name)
+        personEmail.setText(email)
     }
 }

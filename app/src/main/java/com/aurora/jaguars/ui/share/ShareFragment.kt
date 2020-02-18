@@ -24,8 +24,9 @@ class ShareFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
 
-
     ): View? {
+
+
 
         shareViewModel =
             ViewModelProviders.of(this).get(ShareViewModel::class.java)
