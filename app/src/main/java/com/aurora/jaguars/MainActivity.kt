@@ -95,11 +95,9 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         //var ralias = R.id.et_user_name as String;
-        /*
         captureImageBtn.setOnClickListener {
             dispatchTakePictureIntent()
         }
-        */
 
 
 
