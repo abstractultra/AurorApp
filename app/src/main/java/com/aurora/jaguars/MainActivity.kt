@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
                     null
                 }
                 // Continue only if the File was successfully created
+                d("Mihir","first test")
                 photoFile?.also {
                     val photoURI: Uri = FileProvider.getUriForFile(
                         this,
@@ -72,6 +73,8 @@ class MainActivity : AppCompatActivity() {
                     takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI)
                     startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO)
                 }
+                d("Mihir","Second test")
+
             }
         }
     }
